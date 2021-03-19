@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "MB.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        }
+      },
+      "MB.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MB.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../MB.Application.Contracts/MB.Application.Contracts.csproj",
+      "msbuildProject": "../MB.Application.Contracts/MB.Application.Contracts.csproj"
+    },
+    "MB.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MB.Domain/MB.Domain.csproj",
+      "msbuildProject": "../MB.Domain/MB.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "MB.Application.Contracts >= 1.0.0",
+      "MB.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\STRIX\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application\\MB.Application.csproj",
+      "projectName": "MB.Application",
+      "projectPath": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application\\MB.Application.csproj",
+      "packagesPath": "C:\\Users\\STRIX\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\STRIX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            },
+            "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Domain\\MB.Domain.csproj": {
+              "projectPath": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Domain\\MB.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

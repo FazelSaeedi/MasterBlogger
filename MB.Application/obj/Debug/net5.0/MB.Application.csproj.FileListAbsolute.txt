@@ -1,0 +1,17 @@
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\MB.Application.deps.json
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\MB.Application.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\ref\MB.Application.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\MB.Application.pdb
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\MB.Application.Contracts.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\MB.Domain.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\MB.Application.Contracts.pdb
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\MB.Domain.pdb
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.csprojAssemblyReference.cache
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.AssemblyInfoInputs.cache
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.AssemblyInfo.cs
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.csproj.CoreCompileInputs.cache
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.csproj.CopyComplete
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\ref\MB.Application.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.pdb
