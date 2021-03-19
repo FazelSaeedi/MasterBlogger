@@ -1,5 +1,4 @@
 ﻿using System;
-using MB.Domain.ArticleCategoryAgg.Services;
 
 
 namespace MB.Domain.ArticleCategoryAgg
@@ -12,10 +11,10 @@ namespace MB.Domain.ArticleCategoryAgg
         public DateTime CreationDate { get; private set; }
 
 
-        public ArticleCategory(string title , IArticleCategoryValidatorService validatorService)
+        public ArticleCategory(string title )
         {
             Title = title;
-            validatorService.CheckOneArticleAlreadyExist(title);
+            //validatorService.CheckOneArticleAlreadyExist(title);
 
             IsDeleted = false;
             CreationDate = DateTime.Now;

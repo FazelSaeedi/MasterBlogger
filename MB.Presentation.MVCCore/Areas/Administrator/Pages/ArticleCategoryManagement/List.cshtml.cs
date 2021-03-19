@@ -16,16 +16,19 @@ namespace MB.Presentation.MVCCore.Areas.Administrator.Pages.ArticleCategoryManag
 
         private readonly IArticleCategoryApplication _articleCategoryApplication;
 
+        private readonly MasterBloggerContext _context;
 
         public ListModel(IArticleCategoryApplication articleCategoryApplication, MasterBloggerContext context)
         {
             _articleCategoryApplication = articleCategoryApplication;
+            _context = context;
         }
 
 
         public void OnGet()
         {
             ArticleCategories = _articleCategoryApplication.List();
+            //var article = _context.ArticleCategories.ToList();
         }
 
         public RedirectToPageResult OnPostRemove(long id)

@@ -4,7 +4,6 @@ using System.Linq;
 using MB.Application.Contracts;
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.ArticleCategoryAgg;
-using MB.Domain.ArticleCategoryAgg.Services;
 
 namespace MB.Application
 {
@@ -13,7 +12,6 @@ namespace MB.Application
 
         private readonly IArticleCategoryRepository _articleCategoryRepository;
 
-        private readonly IArticleCategoryValidatorService _articleCategoryValidatorService;
         public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository)
         {
             _articleCategoryRepository = articleCategoryRepository;
@@ -38,7 +36,7 @@ namespace MB.Application
 
         public void Create(CreateArticleCategory command)
         {
-            var articleCategory = new ArticleCategory(command.Title , _articleCategoryValidatorService);
+            var articleCategory = new ArticleCategory(command.Title );
             _articleCategoryRepository.Add(articleCategory);
         }
 

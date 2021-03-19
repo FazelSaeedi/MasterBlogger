@@ -12,6 +12,5 @@ namespace MB.Domain.ArticleCategoryAgg
 
         void Save();
 
-        bool Exists(string title);
     }
 }
