@@ -15,12 +15,6 @@ namespace MB.Domain.ArticleCategoryAgg
 
         public ICollection<Article> Articles { get; set; }
 
-
-        public ArticleCategory()
-        {
-
-        }
-
         public ArticleCategory(string title)
         {
             Title = title;

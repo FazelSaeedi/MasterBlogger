@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +26,8 @@ namespace MB.Infrastructure.EFCore.Repositories
                 IsDeleted = x.IsDeleted,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
             }).ToList();
+
         }
+
     }
 }

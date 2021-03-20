@@ -13,7 +13,6 @@ namespace MB.Infrastructure.EFCore.Mappings
     {
         public void Configure(EntityTypeBuilder<Article> builder)
         {
-
             builder.ToTable("Articles");
 
             builder.HasKey(x => x.Id);
@@ -25,8 +24,8 @@ namespace MB.Infrastructure.EFCore.Mappings
             builder.Property(x => x.IsDeleted);
 
             builder.HasOne(x => x.ArticleCategory)
-                .WithMany(x => x.Articles)
-                .HasForeignKey(x => x.ArticleCategoryId);
+                   .WithMany(x => x.Articles)
+                   .HasForeignKey(x => x.ArticleCategoryId);
 
         }
     }

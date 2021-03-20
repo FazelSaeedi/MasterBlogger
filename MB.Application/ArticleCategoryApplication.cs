@@ -22,19 +22,14 @@ namespace MB.Application
 
             
             var articleCategories = _articleCategoryRepository.GetAll();
-            return new List<ArticleCategoryViewModel>
-            {
-                new ArticleCategoryViewModel{Id = 2 , Title = "2" , CreationDate = "2" , IsDeleted = true}
-            };
-            //return articleCategories.ToList();
 
-            /*return articleCategories.Select(articleCategory => new ArticleCategoryViewModel
+            return articleCategories.Select(articleCategory => new ArticleCategoryViewModel
             {
                 Id = articleCategory.Id,
                 Title = articleCategory.Title,
                 IsDeleted = articleCategory.IsDeleted,
                 CreationDate = articleCategory.CreationDate.ToString(CultureInfo.InvariantCulture)
-            }).ToList();*/
+            }).ToList();
 
 
         }
