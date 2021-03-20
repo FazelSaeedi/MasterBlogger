@@ -22,9 +22,7 @@ namespace MB.Infrastructure.EFCore.Mappings
             builder.Property(x => x.Status);
             builder.Property(x => x.CreationDate);
 
-            builder.HasOne(x => x.Article)
-                .WithMany(x => x.Comments)
-                .HasForeignKey(x => x.ArticleId);
+            builder.HasOne(x => x.Article).WithMany(x => x.Comments).HasForeignKey(x => x.ArticleId);
 
         }
     }

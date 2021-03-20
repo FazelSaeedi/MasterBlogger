@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MB.infrastructure.Query
 {
@@ -12,5 +13,8 @@ namespace MB.infrastructure.Query
         public string Image { get; set; }
 
         public string Content { get; set; }
+        public long CommentsCount { get; set; }
+        public List<CommentQueryView> Comments { get; set; }
+
     }
 }

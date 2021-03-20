@@ -35,6 +35,16 @@ namespace MB.Domain.CommentAgg
             ArticleId = articleId;
         }
 
+        public void Confirm()
+        {
+            Status = Statuses.Confirmed;
+        }
+
+        public void Cansel()
+        {
+            Status = Statuses.Canseled;
+        }
+
 
     }
 }

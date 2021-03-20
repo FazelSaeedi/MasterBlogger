@@ -27,5 +27,19 @@ namespace MB.Application
         {
             return _commentRepository.GetList();
         }
+
+        public void Confirm(long id)
+        {
+            var Comment = _commentRepository.Get(id);
+            Comment.Confirm();
+            _commentRepository.Save();
+        }
+
+        public void Cansel(long id)
+        {
+            var Comment = _commentRepository.Get(id);
+            Comment.Cansel();
+            _commentRepository.Save();
+        }
     }
 }

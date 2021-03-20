@@ -40,9 +40,15 @@ namespace MB.Infrastructure.EFCore.Repositories
             }).ToList();
         }
 
-        private void Save()
+        public Comment Get(long id)
+        {
+            return _context.Comments.FirstOrDefault(x => x.Id == id);
+        }
+
+        public void Save()
         {
             _context.SaveChanges();
+
         }
     }
 }
