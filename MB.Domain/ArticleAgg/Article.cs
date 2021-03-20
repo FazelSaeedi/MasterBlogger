@@ -38,7 +38,6 @@ namespace MB.Domain.ArticleAgg
             IsDeleted = false;
             ArticleCategoryId = articleCategoryId;
             CreationDate = DateTime.Now;
-
         }
     }
 }
