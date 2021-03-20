@@ -821,6 +821,9 @@
         }
       },
       "MB.Domain/1.0.0": {
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0"
+        },
         "runtime": {
           "MB.Domain.dll": {}
         },

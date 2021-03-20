@@ -16,3 +16,5 @@ D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Infrastructure.EFCore\obj\Debug\
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Infrastructure.EFCore\obj\Debug\net5.0\ref\MB.Infrastructure.EFCore.dll
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.pdb
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Infrastructure.EFCore\obj\Debug\net5.0\MB.Infrastructure.EFCore.genruntimeconfig.cache
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Application.Contracts.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Infrastructure.EFCore\bin\Debug\net5.0\MB.Application.Contracts.pdb

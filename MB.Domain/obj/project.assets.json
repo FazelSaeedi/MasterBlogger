@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "MB.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MB.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../MB.Application.Contracts/MB.Application.Contracts.csproj",
+      "msbuildProject": "../MB.Application.Contracts/MB.Application.Contracts.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "MB.Application.Contracts >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\STRIX\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
+              "projectPath": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
