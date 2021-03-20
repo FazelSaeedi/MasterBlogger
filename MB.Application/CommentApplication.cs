@@ -22,5 +22,10 @@ namespace MB.Application
             var comment = new Comment(commant.Name, commant.Email, commant.Message, commant.ArticleId);
             _commentRepository.CreateAndSave(comment);
         }
+
+        public List<CommentViewModel> GetList()
+        {
+            return _commentRepository.GetList();
+        }
     }
 }

@@ -98,3 +98,4 @@ D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\n
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManageMent\Edit.cshtml.g.cs
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.infrastructure.Query.dll
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.infrastructure.Query.pdb
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\CommentManageMent\List.cshtml.g.cs
