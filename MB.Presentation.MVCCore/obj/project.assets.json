@@ -628,6 +628,7 @@
           "MB.Application.Contracts": "1.0.0",
           "MB.Domain": "1.0.0",
           "MB.Infrastructure.EFCore": "1.0.0",
+          "MB.infrastructure.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.2.21154.6"
         },
         "compile": {
@@ -650,6 +651,19 @@
         },
         "runtime": {
           "bin/placeholder/MB.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "MB.infrastructure.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.Infrastructure.EFCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MB.infrastructure.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.infrastructure.Query.dll": {}
         }
       }
     }
@@ -1879,6 +1893,11 @@
       "type": "project",
       "path": "../MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj",
       "msbuildProject": "../MB.Infrastructure.EFCore/MB.Infrastructure.EFCore.csproj"
+    },
+    "MB.infrastructure.Query/1.0.0": {
+      "type": "project",
+      "path": "../MB.infrastructure.Query/MB.infrastructure.Query.csproj",
+      "msbuildProject": "../MB.infrastructure.Query/MB.infrastructure.Query.csproj"
     }
   },
   "projectFileDependencyGroups": {
