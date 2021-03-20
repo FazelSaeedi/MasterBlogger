@@ -95,3 +95,4 @@ D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\n
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\Edit.cshtml.g.cs
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManageMent\Create.cshtml.g.cs
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManageMent\List.cshtml.g.cs
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManageMent\Edit.cshtml.g.cs
