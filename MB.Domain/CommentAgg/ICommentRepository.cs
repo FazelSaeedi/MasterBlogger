@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MB.Application.Contracts.Comment
+namespace MB.Domain.CommentAgg
 {
-    public class ICommentApplication
+    public interface ICommentRepository
     {
 
     }

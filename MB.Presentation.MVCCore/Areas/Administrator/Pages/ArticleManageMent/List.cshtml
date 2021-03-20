@@ -42,19 +42,19 @@
                         </td>
                         <td>@article.CreationDate</td>
                         <td>
-                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-id="@article.Id">Edit</a>
+                            <a class="btn btn-warning float-left mr-3" asp-page="./Edit" asp-route-Id="@article.Id">Edit</a>
                             @if (article.IsDeleted)
                             {
                                 <form method="post" asp-page-handler="Activate" class="float-left">
                                     <button class="btn btn-success">Activate</button>
-                                    <input type="hidden" name="id" value="@article.Id" />
+                                    <input type="hidden" name="Id" value="@article.Id" />
                                 </form>
                             }
                             else
                             {
                                 <form method="post" asp-page-handler="Remove" class="float-left">
                                     <button class="btn btn-danger">Remove</button>
-                                    <input type="hidden" name="id" value="@article.Id" />
+                                    <input type="hidden" name="Id" value="@article.Id" />
                                 </form>
                             }
                         </td>
