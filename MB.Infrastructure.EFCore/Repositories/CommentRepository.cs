@@ -8,13 +8,24 @@ using MB.Domain.CommentAgg;
 namespace MB.Infrastructure.EFCore.Repositories
 {
 
-    class CommentRepository : ICommentRepository
+    public class CommentRepository : ICommentRepository
     {
         public readonly MasterBloggerContext _context;
 
         public CommentRepository(MasterBloggerContext context)
         {
             _context = context;
+        }
+
+        public void CreateAndSave(Comment comment)
+        {
+            _context.Add(comment);
+            Save();
+        }
+
+        private void Save()
+        {
+            _context.SaveChanges();
         }
     }
 }

@@ -8,13 +8,19 @@ using MB.Domain.CommentAgg;
 
 namespace MB.Application
 {
-    class CommentApplication : ICommentApplication
+    public class CommentApplication : ICommentApplication
     {
         private readonly ICommentRepository _commentRepository;
 
         public CommentApplication(ICommentRepository commentRepository)
         {
             _commentRepository = commentRepository;
+        }
+
+        public void Add(AddComment commant)
+        {
+            var comment = new Comment(commant.Name, commant.Email, commant.Message, commant.ArticleId);
+            _commentRepository.CreateAndSave(comment);
         }
     }
 }
