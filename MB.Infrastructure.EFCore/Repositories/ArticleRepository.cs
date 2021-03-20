@@ -44,5 +44,10 @@ namespace MB.Infrastructure.EFCore.Repositories
         {
             _context.SaveChanges();
         }
+
+        public bool Exists(string title)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
