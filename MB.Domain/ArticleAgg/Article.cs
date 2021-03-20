@@ -49,5 +49,15 @@ namespace MB.Domain.ArticleAgg
             IsDeleted = false;
             ArticleCategoryId = articleCategoryId;
         }
+
+        public void Remove()
+        {
+            this.IsDeleted = true;
+        }
+
+        public void Activate()
+        {
+            this.IsDeleted = false;
+        }
     }
 }
