@@ -511,6 +511,11 @@
           }
         }
       },
+      "01_Framework/1.0.0": {
+        "runtime": {
+          "01_Framework.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "runtime": {
           "MB.Application.Contracts.dll": {}
@@ -518,6 +523,7 @@
       },
       "MB.Domain/1.0.0": {
         "dependencies": {
+          "01_Framework": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
@@ -839,6 +845,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "01_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",

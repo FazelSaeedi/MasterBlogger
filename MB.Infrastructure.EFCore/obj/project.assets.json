@@ -620,6 +620,16 @@
           }
         }
       },
+      "01_Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/01_Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_Framework.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -634,6 +644,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "01_Framework": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "compile": {
@@ -1900,6 +1911,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "01_Framework/1.0.0": {
+      "type": "project",
+      "path": "../01_Framework/01_Framework.csproj",
+      "msbuildProject": "../01_Framework/01_Framework.csproj"
     },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",

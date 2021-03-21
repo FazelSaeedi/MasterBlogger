@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "01_Framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/01_Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_Framework.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "01_Framework/1.0.0": {
+      "type": "project",
+      "path": "../01_Framework/01_Framework.csproj",
+      "msbuildProject": "../01_Framework/01_Framework.csproj"
+    },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../MB.Application.Contracts/MB.Application.Contracts.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "01_Framework >= 1.0.0",
       "MB.Application.Contracts >= 1.0.0"
     ]
   },
@@ -58,6 +74,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\01_Framework\\01_Framework.csproj": {
+              "projectPath": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\01_Framework\\01_Framework.csproj"
+            },
             "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application.Contracts\\MB.Application.Contracts.csproj": {
               "projectPath": "D:\\Projects\\ASPNetCore\\MasterBlog\\MasterBlog\\MB.Application.Contracts\\MB.Application.Contracts.csproj"
             }

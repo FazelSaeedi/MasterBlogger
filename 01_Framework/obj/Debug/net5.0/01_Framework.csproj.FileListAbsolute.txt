@@ -1,0 +1,12 @@
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\bin\Debug\net5.0\01_Framework.deps.json
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\bin\Debug\net5.0\01_Framework.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\bin\Debug\net5.0\ref\01_Framework.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\bin\Debug\net5.0\01_Framework.pdb
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\01_Framework.csprojAssemblyReference.cache
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\01_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\01_Framework.AssemblyInfoInputs.cache
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\01_Framework.AssemblyInfo.cs
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\01_Framework.csproj.CoreCompileInputs.cache
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\01_Framework.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\ref\01_Framework.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\01_Framework\obj\Debug\net5.0\01_Framework.pdb

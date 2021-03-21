@@ -15,3 +15,5 @@ D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.dll
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\ref\MB.Application.dll
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\obj\Debug\net5.0\MB.Application.pdb
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\01_Framework.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.Application\bin\Debug\net5.0\01_Framework.pdb

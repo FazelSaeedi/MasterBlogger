@@ -15,6 +15,11 @@
           "MB.Application.dll": {}
         }
       },
+      "01_Framework/1.0.0": {
+        "runtime": {
+          "01_Framework.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "runtime": {
           "MB.Application.Contracts.dll": {}
@@ -22,6 +27,7 @@
       },
       "MB.Domain/1.0.0": {
         "dependencies": {
+          "01_Framework": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
@@ -32,6 +38,11 @@
   },
   "libraries": {
     "MB.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "01_Framework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

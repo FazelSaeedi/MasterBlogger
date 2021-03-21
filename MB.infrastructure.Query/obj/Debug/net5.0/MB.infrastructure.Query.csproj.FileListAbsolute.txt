@@ -17,3 +17,5 @@ D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.infrastructure.Query\obj\Debug\n
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.infrastructure.Query\obj\Debug\net5.0\MB.infrastructure.Query.dll
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.infrastructure.Query\obj\Debug\net5.0\ref\MB.infrastructure.Query.dll
 D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.infrastructure.Query\obj\Debug\net5.0\MB.infrastructure.Query.pdb
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.infrastructure.Query\bin\Debug\net5.0\01_Framework.dll
+D:\Projects\ASPNetCore\MasterBlog\MasterBlog\MB.infrastructure.Query\bin\Debug\net5.0\01_Framework.pdb
